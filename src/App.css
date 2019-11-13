@@ -1,22 +1,49 @@
-.App {
-  text-align: center;
+.container{
+  width: 80%;
+  margin: 20px auto
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form, .show-form-data {
+  width:50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  flex-direction: column
 }
 
-.App-link {
-  color: #09d3ac;
+form fieldset, .show-form-data fieldset{
+  border:0;
+  outline:0;
+}
+
+form fieldset label, .show-form-data fieldset label{
+  width: 180px;
+  display: inline-block
+}
+
+nav {
+  width: 80%;
+  margin: 20px auto
+}
+
+h1{
+  text-align: center
+}
+
+nav ul, .show-list-data{
+  width: 100%;
+  display: flex;
+  margin:0;
+  padding:0;
+  justify-content: flex-end
+}
+
+li{
+  display: inline-block;
+  width: 150px;
+}
+
+.show-list-data{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly
 }
