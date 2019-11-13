@@ -4,7 +4,3 @@ export const addUser = data => ({
   id: userId++,
   data: {...data}
 })
-
-export const getUsers = () =>({
-    type: 'GET_USERS'
-})
