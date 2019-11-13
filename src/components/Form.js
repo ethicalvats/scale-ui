@@ -38,8 +38,8 @@ export class Form extends React.Component {
             this.setState({
                 error: false
             })
+            this.props.onNext({email, username, password})
         }
-        this.props.onNext({email, username, password})
     }
 
     render() {

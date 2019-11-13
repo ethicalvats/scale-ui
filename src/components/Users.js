@@ -1,12 +1,8 @@
 import React from "react";
 import { connect } from 'react-redux'
-import { getUsers } from "../actions";
 
 class Users extends React.Component {
     state
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         const { users } = this.props

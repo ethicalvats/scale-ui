@@ -3,9 +3,6 @@ import { connect } from 'react-redux'
 
 class Dashboard extends React.Component {
     state
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         const { users } = this.props
